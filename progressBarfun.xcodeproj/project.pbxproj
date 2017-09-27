@@ -12,6 +12,8 @@
 		DEE20E2F1F7B260A00F2D2C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE20E2D1F7B260A00F2D2C0 /* Main.storyboard */; };
 		DEE20E311F7B260A00F2D2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE20E301F7B260A00F2D2C0 /* Assets.xcassets */; };
 		DEE20E341F7B260A00F2D2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE20E321F7B260A00F2D2C0 /* LaunchScreen.storyboard */; };
+		DEE20E3F1F7B2C2F00F2D2C0 /* ProgressBarDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE20E3E1F7B2C2F00F2D2C0 /* ProgressBarDraw.swift */; };
+		DEE20E411F7B334700F2D2C0 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE20E401F7B334700F2D2C0 /* ProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DEE20E301F7B260A00F2D2C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE20E331F7B260A00F2D2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEE20E351F7B260A00F2D2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE20E3E1F7B2C2F00F2D2C0 /* ProgressBarDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarDraw.swift; sourceTree = "<group>"; };
+		DEE20E401F7B334700F2D2C0 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		DEE20E281F7B260A00F2D2C0 /* progressBarfun */ = {
 			isa = PBXGroup;
 			children = (
+				DEE20E3D1F7B263100F2D2C0 /* Controller */,
+				DEE20E3C1F7B262B00F2D2C0 /* View */,
+				DEE20E3B1F7B262300F2D2C0 /* Model */,
 				DEE20E291F7B260A00F2D2C0 /* AppDelegate.swift */,
-				DEE20E2B1F7B260A00F2D2C0 /* ViewController.swift */,
 				DEE20E2D1F7B260A00F2D2C0 /* Main.storyboard */,
 				DEE20E301F7B260A00F2D2C0 /* Assets.xcassets */,
 				DEE20E321F7B260A00F2D2C0 /* LaunchScreen.storyboard */,
 				DEE20E351F7B260A00F2D2C0 /* Info.plist */,
 			);
 			path = progressBarfun;
+			sourceTree = "<group>";
+		};
+		DEE20E3B1F7B262300F2D2C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DEE20E3C1F7B262B00F2D2C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEE20E3E1F7B2C2F00F2D2C0 /* ProgressBarDraw.swift */,
+				DEE20E401F7B334700F2D2C0 /* ProgressBarView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DEE20E3D1F7B263100F2D2C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEE20E2B1F7B260A00F2D2C0 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE20E3F1F7B2C2F00F2D2C0 /* ProgressBarDraw.swift in Sources */,
+				DEE20E411F7B334700F2D2C0 /* ProgressBarView.swift in Sources */,
 				DEE20E2C1F7B260A00F2D2C0 /* ViewController.swift in Sources */,
 				DEE20E2A1F7B260A00F2D2C0 /* AppDelegate.swift in Sources */,
 			);

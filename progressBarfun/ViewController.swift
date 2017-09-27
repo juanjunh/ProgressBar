@@ -10,16 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var progressBar: ProgressBarView!
+    
+    @IBOutlet weak var progressSlider: UISlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
+    @IBAction func sliderMoved(sender: AnyObject) {
+        progressBar.progress = CGFloat(progressSlider.value)
+        
+        
+        
+    }
 
 }
 
